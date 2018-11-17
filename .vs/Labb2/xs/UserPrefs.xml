@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{91F9B4F9-08C7-47BF-94D0-058CF4DEE837}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Labb2/SortedPosList.cs">
     <Files>
-      <File FileName="Labb2/Program.cs" Line="15" Column="13" />
-      <File FileName="Labb2/Position.cs" Line="91" Column="97" />
-      <File FileName="Labb2/SortedPosList.cs" Line="1" Column="1" />
+      <File FileName="Labb2/Program.cs" Line="21" Column="38" />
+      <File FileName="Labb2/Position.cs" Line="4" Column="26" />
+      <File FileName="Labb2/SortedPosList.cs" Line="101" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -12,5 +12,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Labb2 PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Labb2 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

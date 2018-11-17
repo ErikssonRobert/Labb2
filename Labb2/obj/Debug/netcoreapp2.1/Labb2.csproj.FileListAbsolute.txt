@@ -1,0 +1,11 @@
+/Users/mrx/Desktop/App17/C-Sharp grundkurs/Labb2/Labb2/bin/Debug/netcoreapp2.1/Labb2.deps.json
+/Users/mrx/Desktop/App17/C-Sharp grundkurs/Labb2/Labb2/bin/Debug/netcoreapp2.1/Labb2.runtimeconfig.json
+/Users/mrx/Desktop/App17/C-Sharp grundkurs/Labb2/Labb2/bin/Debug/netcoreapp2.1/Labb2.runtimeconfig.dev.json
+/Users/mrx/Desktop/App17/C-Sharp grundkurs/Labb2/Labb2/bin/Debug/netcoreapp2.1/Labb2.dll
+/Users/mrx/Desktop/App17/C-Sharp grundkurs/Labb2/Labb2/bin/Debug/netcoreapp2.1/Labb2.pdb
+/Users/mrx/Desktop/App17/C-Sharp grundkurs/Labb2/Labb2/obj/Debug/netcoreapp2.1/Labb2.csprojAssemblyReference.cache
+/Users/mrx/Desktop/App17/C-Sharp grundkurs/Labb2/Labb2/obj/Debug/netcoreapp2.1/Labb2.csproj.CoreCompileInputs.cache
+/Users/mrx/Desktop/App17/C-Sharp grundkurs/Labb2/Labb2/obj/Debug/netcoreapp2.1/Labb2.AssemblyInfoInputs.cache
+/Users/mrx/Desktop/App17/C-Sharp grundkurs/Labb2/Labb2/obj/Debug/netcoreapp2.1/Labb2.AssemblyInfo.cs
+/Users/mrx/Desktop/App17/C-Sharp grundkurs/Labb2/Labb2/obj/Debug/netcoreapp2.1/Labb2.dll
+/Users/mrx/Desktop/App17/C-Sharp grundkurs/Labb2/Labb2/obj/Debug/netcoreapp2.1/Labb2.pdb
