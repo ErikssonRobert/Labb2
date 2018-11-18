@@ -24,13 +24,8 @@ namespace Labb2
 
         public void Add(Position p)
         {
-            for (int i = 0; i < positions.Count(); i++)
-            {
-                if (p.Length() < positions[i].Length())
-                {
-                    positions.Insert(i, p);
-                }
-            }
+            positions.Add(p);
+            positions.Sort((p1, p2) => p1.Length().CompareTo(p2.Length()));
         }
 
         public bool Remove(Position p)
@@ -53,9 +48,9 @@ namespace Labb2
         {
             SortedPosList newList = new SortedPosList();
 
-            foreach (Position p in positions)
+            foreach (Position p in this.positions)
             {
-                if (((p.X - centerPos.X) * (p.X - centerPos.X)) + ((p.Y - centerPos.Y) * (p.Y - centerPos.Y)) < (radius * radius))
+                if ((Math.Pow(p.X - centerPos.X, 2) + Math.Pow(p.Y - centerPos.Y, 2)) < Math.Pow(radius, 2))
                 {
                     newList.Add(p.Clone());
                 }
@@ -78,26 +73,24 @@ namespace Labb2
 
         public static SortedPosList operator -(SortedPosList sp1, SortedPosList sp2)
         {
-            SortedPosList newList = sp1.Clone();
-
-            foreach (Position p1 in sp1.positions)
+            foreach (Position p1 in sp1.positions.Reverse<Position>())
             {
-                foreach (Position p2 in sp2.positions)
+                foreach (Position p2 in sp2.positions.Reverse<Position>())
                 {
                     if (p1.Equals(p2))
                     {
-                        newList.Remove(p1);
+                        sp1.Remove(p1);
                     }
                 }
             }
 
-            return newList;
+            return sp1.Clone();
         }
 
-        //public override string ToString()
-        //{
-        //    return positions.ToString();
-        //}
+        public override string ToString()
+        {
+            return string.Join(", ", positions);
+        }
 
         private void Save()
         {
